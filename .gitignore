@@ -1,0 +1,11 @@
+# Node dependencies and generated frontend files
+frontend/node_modules/
+frontend/dist/
+
+# Maven output
+backend/target/
+
+# Local environment settings and logs
+.env
+.env.*
+*.log
