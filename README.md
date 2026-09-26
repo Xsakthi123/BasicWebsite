@@ -54,7 +54,7 @@ React Router maps `/`, `/about`, `/services`, and `/contact` to their pages. The
 
 ## Step 7: Spring Boot backend
 
-The backend exposes `POST /api/contact`. Spring validates submitted fields and returns an acknowledgement. This starter does **not** save messages or send email; add a database or email provider before using it to collect real customer enquiries.
+The backend exposes `POST /api/contact`. Spring validates submitted fields and returns an acknowledgement. Opening `http://localhost:8080/` or `http://localhost:8080/api/contact` in a browser shows a helpful page instead of an error; submit messages from the website's contact form. This starter does **not** save messages or send email; add a database or email provider before using it to collect real customer enquiries.
 
 `ContactRequest` defines the accepted fields and their validation rules. `ContactController` receives valid requests and returns a small JSON response. `ContactResponse` defines that response shape.
 
