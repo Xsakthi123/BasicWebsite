@@ -17,6 +17,7 @@ business-website/
 |-- frontend/
 |   |-- index.html
 |   |-- package.json
+|   |-- vite.config.js
 |   `-- src/
 |       |-- components/
 |       |   |-- Footer.jsx
@@ -50,7 +51,7 @@ The contact page has a form for a visitor's name, email, subject, and message. T
 
 ## Step 6: React routing
 
-React Router maps `/`, `/about`, `/services`, and `/contact` to their pages. The shared navigation and footer stay in place as visitors move between pages.
+React Router maps `/`, `/about`, `/services`, and `/contact` to their pages. The shared navigation and footer stay in place as visitors move between pages. `vite.config.js` enables Vite's React plugin and automatic JSX transformation so the React components render correctly.
 
 ## Step 7: Spring Boot backend
 
